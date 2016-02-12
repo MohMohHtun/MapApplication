@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapApplication</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="add_geofences">Add geofences</string>
+    <string name="remove_geofences">Remove geofences</string>
+
+    <string name="geofences_added">Alert added</string>
+    <string name="geofences_removed">Alert removed</string>
+
+    <!-- Error strings -->
+    <string name="not_connected">GoogleApiClient no yet connected. Try again.</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
+
+    <string name="about">This is simple google map application to retrieve the current user location and save the location.\n
+The user can save this current location and will get notification when the user enter the 1km around this area, only if he enable alert.\n
+To enable alert , open the floating menu and click enable alert button.\n
+If user haven’t saved any locations the “Enable Alert” cannot be active.\n
+The user can also see the saved locations list by clicking See saved list.\n
+From the saved list , click on the list item to see the location and long press on the list (android default) to delete the list.\n
+To use the application, make sure the gps is enabled and to have a good internet connection.\n</string>
+
+</resources>

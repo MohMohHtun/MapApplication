@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        fab:fab_addButtonColorPressed="#800080"
+        fab:fab_addButtonColorNormal="#800080"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        android:layout_marginEnd="16dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/enable_alert"
+            fab:fab_colorNormal="#FFFFFF"
+            fab:fab_title="Enable Alert"
+            fab:fab_icon="@drawable/enable_alert"
+            fab:fab_size="normal"
+            android:layout_width="wrap_content"
+            android:onClick="addGeofencesButtonHandler"
+            android:layout_height="wrap_content"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/disable_alert"
+            fab:fab_colorNormal="#FFFFFF"
+            fab:fab_title="Disable Alert"
+            fab:fab_icon="@drawable/disable_alert"
+            android:layout_width="wrap_content"
+            fab:fab_size="normal"
+            android:onClick="removeGeofencesButtonHandler"
+            android:layout_height="wrap_content"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/save_location"
+            fab:fab_colorNormal="#FFFFFF"
+            fab:fab_title="Save Current Location"
+            fab:fab_icon="@drawable/save_location"
+            fab:fab_size="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/list"
+            fab:fab_colorNormal="#FFFFFF"
+            fab:fab_title="See Saved List"
+            fab:fab_icon="@drawable/list"
+            fab:fab_size="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/info"
+            fab:fab_colorNormal="#FFFFFF"
+            fab:fab_title="Information"
+            fab:fab_icon="@drawable/info"
+            fab:fab_size="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </RelativeLayout>
+

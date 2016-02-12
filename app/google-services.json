@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "mapapplication-9b7b1",
+    "project_number": "345573978808",
+    "name": "MapApplication"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345573978808:android:19dce5bd1ee89668",
+        "client_id": "android:com.example.mohmohhtun.mapapplication",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.mohmohhtun.mapapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345573978808-3i2hrr5is1il19ab3q3iacmvm7ir1le4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohmohhtun.mapapplication",
+            "certificate_hash": "92E57978A2F00E8B73A3F9D36624E699859EF9FB"
+          }
+        },
+        {
+          "client_id": "345573978808-04vngukeiel9njsac6jvbcaq638v7m2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:background="#424242"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="Saved Locations"/>
+    <TextView
+        android:id="@+id/noLoc"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="No Location Found"/>
+    <ListView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        </ListView>
+</LinearLayout>
